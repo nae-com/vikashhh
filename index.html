@@ -59,14 +59,14 @@ body:before{
     width:100%;
     max-width:480px;
     margin:auto;
-    padding:22px 20px 40px;
+    padding:25px 20px 40px;
 }
 
 .topbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:12px 0 25px;
+    padding-bottom:20px;
 }
 
 .brand{
@@ -84,80 +84,52 @@ body:before{
     border-radius:30px;
 }
 
-/* Logo Section Styles */
+/* Clean Single Logo Section */
 .logo-section {
     text-align: center;
-    margin-bottom: 22px;
-    padding: 20px;
-    background: linear-gradient(145deg, #12100d, #0b0a08);
-    border: 1px solid rgba(226, 177, 65, 0.2);
-    border-radius: 20px;
+    padding: 30px 20px;
+    background: linear-gradient(145deg, #1b1710, #100e0b);
+    border: 1px solid rgba(226, 177, 65, 0.3);
+    border-radius: 25px;
+    box-shadow: 0 15px 50px #000;
+    margin-bottom: 25px;
 }
 
 .logo-container {
-    width: 75px;
-    height: 75px;
-    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
     border-radius: 50%;
     background: linear-gradient(135deg, #f8d77a, #b77a16);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 26px;
+    font-size: 34px;
     font-weight: 800;
     color: #171007;
-    box-shadow: 0 0 25px rgba(212, 156, 60, 0.35);
-    border: 3px solid #fff1c2;
+    border: 4px solid #fff1c2;
+    box-shadow: 0 0 30px rgba(212, 156, 60, 0.4);
+    overflow: hidden;
 }
 
-.logo-section h3 {
-    font-size: 15px;
-    font-weight: 700;
-    color: #e9b94d;
-    margin-bottom: 2px;
-}
-
-.logo-section p {
-    font-size: 11px;
-    color: #888;
-}
-
-.hero{
-    text-align:center;
-    padding:28px 15px;
-    background:linear-gradient(145deg,#1b1710,#100e0b);
-    border:1px solid rgba(226,177,65,.3);
-    border-radius:25px;
-    box-shadow:0 15px 50px #000;
-}
-
-.profile{
-    width:112px;
-    height:112px;
-    margin:0 auto 20px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:39px;
-    font-weight:800;
-    color:#171007;
-    background:linear-gradient(135deg,#f8d77a,#b77a16);
-    border:4px solid #fff1c2;
-    box-shadow:0 0 30px #d49c3c55;
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .eyebrow{
     font-size:11px;
     letter-spacing:3px;
     color:#d9ae50;
-    margin-bottom:10px;
+    margin-bottom:8px;
 }
 
 h1{
-    font-size:34px;
+    font-size:30px;
     font-weight:800;
     line-height:1.2;
+    margin-bottom:12px;
 }
 
 h1 span{
@@ -168,7 +140,7 @@ h1 span{
     color:#aaa;
     font-size:13px;
     line-height:1.8;
-    margin:15px 0 25px;
+    margin-bottom:25px;
 }
 
 .join-btn{
@@ -192,9 +164,9 @@ h1 span{
 }
 
 .section-title{
-    font-size:19px;
+    font-size:18px;
     font-weight:700;
-    margin:30px 0 15px;
+    margin:25px 0 15px;
 }
 
 .feature{
@@ -253,16 +225,11 @@ h1 span{
         <div class="verified">✦ OFFICIAL</div>
     </div>
 
-    <!-- Added Logo Section -->
-    <div class="logo-section">
-        <div class="logo-container">vikas.jpeg</div>
-        <h3>Vikash Community</h3>
-        <p>Official Brand Emblem</p>
-    </div>
-
-    <section class="hero">
-
-        <div class="profile">VC</div>
+    <!-- Single Clean Logo Section (Hero Combined) -->
+    <section class="logo-section">
+        <div class="logo-container">
+            <img src="vikas.jpeg" alt="Logo">
+        </div>
 
         <div class="eyebrow">WELCOME TO THE COMMUNITY</div>
 
@@ -273,11 +240,9 @@ h1 span{
             Join us to explore learning, knowledge and new opportunities.
         </p>
 
-        <a href="https://t.me/+tWMWtaDFd1hhMzM1"
-           class="join-btn">
+        <a href="https://t.me/+tWMWtaDFd1hhMzM1" class="join-btn">
            JOIN COMMUNITY &nbsp; →
         </a>
-
     </section>
 
     <h2 class="section-title">Why Join Us?</h2>
@@ -306,8 +271,7 @@ h1 span{
         </div>
     </div>
 
-    <a href="https://t.me/+tWMWtaDFd1hhMzM1"
-       class="join-btn" style="margin-top:25px;">
+    <a href="https://t.me/+tWMWtaDFd1hhMzM1" class="join-btn" style="margin-top:25px;">
        JOIN VIKASH COMMUNITY NOW →
     </a>
 
